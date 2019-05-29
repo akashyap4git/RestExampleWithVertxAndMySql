@@ -1,0 +1,24 @@
+{
+	"appConfig": {
+		"workerPoolSize": 300,
+		"rxPoolSize": 100,
+		"port": 8092,
+		"cache": "disable",
+		"eventBusReplyMessageTimeoutMillis": 30000,
+		"fusionWsTimeoutMillis": 120000,
+		"eventBusReplyTimedoutRetry": 2,
+		"updateReplyTimeOut" : 30000,
+		"attachmentCleanUpInterval": 300000,		
+      	"clientTypeForExternalAPIConsumers": "External"
+	},
+	"dbConfig": {
+		"mysql": {
+			"name": "MySql",
+			"url" : "jdbc:mysql://localhost/vertxdb",
+			"port" : 3306,
+			"user" : "root",
+			"password" : "akashyap",
+			"maxPoolSize" : "10"
+		}
+	}
+}
